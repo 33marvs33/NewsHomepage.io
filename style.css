@@ -28,6 +28,7 @@
 
 html {
   font-family: "inter", sans-serif;
+  scroll-behaviour:smooth;
 }
 
 /* reset */
