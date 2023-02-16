@@ -26,8 +26,8 @@ closeMenu.addEventListener('click', () => {
 const imageChange = selected('.change');
 window.addEventListener('resize', () => {
     if(this.innerWidth >= 700) {
-        imageChange.setAttribute('src', '/assets/images/image-web-3-desktop.jpg')
+        imageChange.setAttribute('src', 'image-web-3-desktop.jpg')
     }else {
-        imageChange.setAttribute('src', '/assets/images/image-web-3-mobile.jpg')
+        imageChange.setAttribute('src', 'image-web-3-mobile.jpg')
     }
 })
